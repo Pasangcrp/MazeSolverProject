@@ -67,15 +67,15 @@ The maze is visualized in the console, with the solution path highlighted, allow
 1 # # # # 1 
 1 1 1 1 1 1
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or new features.
 
-🛠️ Future Work
+## 🛠️ Future Work
 Dynamic Maze Input: Allow users to input their own mazes or generate random ones.
 Enhanced Visualization: Implement graphical representation using libraries like pygame or matplotlib.
 Performance Comparison: Add features to compare the time and memory usage of different algorithms.
 
-✉️ Contact
+## ✉️ Contact
 For any inquiries, feel free to reach out via pasangtshering2003@gmail.com
 
 
