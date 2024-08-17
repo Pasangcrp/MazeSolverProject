@@ -1,11 +1,12 @@
 
-#* A* search
+#* A* search (Heuristic Search Algorithm)
 
 import heapq
 
 def a_star(maze, start, goal):
     def heuristic(a, b):
-        return abs(a[0] - b[0]) + abs(a[1] - b[1])  # Manhattan distance
+        # Manhattan distance
+        return abs(a[0] - b[0]) + abs(a[1] - b[1])  
 
     pq = []
     heapq.heappush(pq, (0, start))
@@ -21,8 +22,8 @@ def a_star(maze, start, goal):
                 path.append(current)
                 current = came_from[current]
             return path[::-1]
-        
-        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:  # Explore neighbors (up, down, left, right)
+        # Explore neighbors (up, down, left, right)
+        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:  
             neighbor = (current[0] + dx, current[1] + dy)
             if 0 <= neighbor[0] < len(maze) and 0 <= neighbor[1] < len(maze[0]) and maze[neighbor[0]][neighbor[1]] == '0':
                 new_g = g_costs[current] + 1

@@ -1,5 +1,5 @@
 
-#* UNIFORM COST SEARCH
+#* UNIFORM COST SEARCH (Non-Heuristic Search Algorithm)
 
 import heapq
 

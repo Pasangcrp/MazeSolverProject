@@ -23,11 +23,9 @@ def best_f_s(maze, start, goal):
             while current is not None:
                 path.append(current)
                 current = came_from[current]
-            return path[::-1]  # Return the path from start to goal
-
+            return path[::-1] 
         visited.add(current)
 
-        # Explore the neighbors (up, down, left, right)
         for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:
             neighbor = (current[0] + dx, current[1] + dy)
 

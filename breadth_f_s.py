@@ -1,5 +1,5 @@
 
-#* BREADTH FIRST SEARCH
+#* BREADTH FIRST SEARCH (Non-Heuristic Search Algorithm)
 
 from collections import deque
 
@@ -20,7 +20,7 @@ def breadth_fs(maze, start, goal):
             while current is not None:
                 path.append(current)
                 current = came_from[current]
-            return path[::-1]  # Return the path from start to goal
+            return path[::-1]  
 
         visited.add(current)
 
