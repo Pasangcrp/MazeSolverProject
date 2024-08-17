@@ -32,6 +32,13 @@ The maze is visualized in the console, with the solution path highlighted, allow
 - **Uniform Cost Search (UCS)**: Expands the least-cost node, ensuring the shortest path in an unweighted graph.
 
 ## 📂 Project Structure
+📦 Maze Solver
+├── 📜 main.py # Main script to run the project
+├── 📜 astar.py # A* Search algorithm implementation
+├── 📜 best_f_s.py # Best-First Search algorithm implementation
+├── 📜 breadth_f_s.py # Breadth-First Search algorithm implementation
+├── 📜 depth_f_s.py # Depth-First Search algorithm implementation
+└── 📜 uniform_c_s.py # Uniform Cost Search algorithm implementation
 
 ## 🔧 How to Run
 
@@ -60,8 +67,16 @@ The maze is visualized in the console, with the solution path highlighted, allow
 1 # # # # 1 
 1 1 1 1 1 1
 
+🤝 Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or new features.
 
+🛠️ Future Work
+Dynamic Maze Input: Allow users to input their own mazes or generate random ones.
+Enhanced Visualization: Implement graphical representation using libraries like pygame or matplotlib.
+Performance Comparison: Add features to compare the time and memory usage of different algorithms.
 
+✉️ Contact
+For any inquiries, feel free to reach out via pasangtshering2003@gmail.com
 
 
 
