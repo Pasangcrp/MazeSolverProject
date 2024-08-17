@@ -66,6 +66,7 @@ The maze is visualized in the console, with the solution path highlighted, allow
 1 # 1 # 1 1 
 1 # # # # 1 
 1 1 1 1 1 1
+```
 
 ## 🤝 Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or new features.
